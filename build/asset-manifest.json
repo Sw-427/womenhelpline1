@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "./static/css/main.18e1b5ee.chunk.css",
+    "main.js": "./static/js/main.2717e703.chunk.js",
+    "main.js.map": "./static/js/main.2717e703.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.a005b475.js",
+    "runtime-main.js.map": "./static/js/runtime-main.a005b475.js.map",
+    "static/css/2.9d71a69d.chunk.css": "./static/css/2.9d71a69d.chunk.css",
+    "static/js/2.203209af.chunk.js": "./static/js/2.203209af.chunk.js",
+    "static/js/2.203209af.chunk.js.map": "./static/js/2.203209af.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.9d71a69d.chunk.css.map": "./static/css/2.9d71a69d.chunk.css.map",
+    "static/css/main.18e1b5ee.chunk.css.map": "./static/css/main.18e1b5ee.chunk.css.map",
+    "static/js/2.203209af.chunk.js.LICENSE.txt": "./static/js/2.203209af.chunk.js.LICENSE.txt",
+    "static/media/aa.6fd70056.png": "./static/media/aa.6fd70056.png",
+    "static/media/index.css": "./static/media/aiga_down_arrow_bg.c0f9fa03.svg",
+    "static/media/filter.4d2b28d6.png": "./static/media/filter.4d2b28d6.png",
+    "static/media/language.ed9b2545.jpg": "./static/media/language.ed9b2545.jpg",
+    "static/media/location.96265df2.png": "./static/media/location.96265df2.png",
+    "static/media/setting1.551558cc.png": "./static/media/setting1.551558cc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a005b475.js",
+    "static/css/2.9d71a69d.chunk.css",
+    "static/js/2.203209af.chunk.js",
+    "static/css/main.18e1b5ee.chunk.css",
+    "static/js/main.2717e703.chunk.js"
+  ]
+}

@@ -184,7 +184,7 @@ class ReactView3(APIView):
         data=request.data
         data['issues'] = ",".join(data['issues'])
         body = f"Name : {data['name']}\nPhone No. : {data['number']}\nEmail ID : {data['email']}\nIssues : {data['issues']}\nProblem Description : {data['aoi']}\nAnthing else : {data['anything']}"
-        res = send_mail("Hello WIfi", body, "sidkakela@gmail.com", [data['email']])
+        res = send_mail("This person needs your help", body, "womenhelpline99@gmail.com", [data['email']])
         return Response(True)
 
 class ReactView4(APIView):

@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import os
 import dotenv
-import django_heroku
+#import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -29,8 +29,8 @@ if os.path.isfile(dotenv_file):
 SECRET_KEY = os.environ['SECRET_KEY']
 #'django-insecure-vqnfb_)=lkkj_h9_763j)%q^2hj#$as$0f^#4$c5dqu6@)p$=='   
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-ALLOWED_HOSTS = ['127.0.0.1']
+DEBUG = True
+ALLOWED_HOSTS = ['127.0.0.1', 'womenhelpline.herokuapp.com']
 
 
 # Application definition
@@ -134,11 +134,12 @@ CSRF_COOKIE_NAME = "csrftoken"
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 
-django_heroku.settings(locals())
+#django_heroku.settings(locals())
 
 
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR/'staticfilep'
+#STATIC_ROOT = os.path.join(BASE_DIR, 'staticfilep/')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
@@ -146,8 +147,8 @@ STATIC_ROOT = BASE_DIR/'staticfilep'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'sidkakela@gmail.com'
-EMAIL_HOST_PASSWORD = 'sidkela123'
+EMAIL_HOST_USER = 'womenhelpline99@gmail.com'
+EMAIL_HOST_PASSWORD = 'helpline@1234'
 EMAIL_PORT = 465
 EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
